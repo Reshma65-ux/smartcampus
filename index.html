@@ -1,80 +1,66 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Smart AI Campus</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartCampus - AI for Schools</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gray-50 text-gray-900">
 
-  <header>
-    <h1>Smart AI Campus</h1>
-    <p>Empowering Schools with Intelligent Insights</p>
-    <p><em>Founded by Shireen R</em></p>
-  </header>
-
-  <nav>
-    <a href="#services">Services</a>
-    <a href="#pricing">Pricing</a>
-    <a href="#demo">Demo</a>
-    <a href="#faq">FAQ</a>
-    <a href="#contact">Enquiry</a>
-  </nav>
-
-  <section id="services" class="section">
-    <h2>Our AI Services</h2>
-    <ul>
-      <li>📊 Automated Report Cards</li>
-      <li>📅 Attendance Analytics</li>
-      <li>📘 Syllabus Completion Tracker</li>
-      <li>🎭 Co-curricular Activities Tracking</li>
-    </ul>
+  <!-- Hero Section -->
+  <section class="bg-blue-600 text-white py-16 text-center">
+    <div class="max-w-4xl mx-auto">
+      <img src="https://cdn-icons-png.flaticon.com/512/11062/11062710.png" alt="AI Illustration" class="w-24 h-24 mx-auto mb-4" />
+      <h1 class="text-4xl font-bold mb-4">Empowering Schools with AI</h1>
+      <p class="text-lg max-w-xl mx-auto">From visual report cards to smart automation — SmartCampus brings powerful AI tools to every school and institution.</p>
+    </div>
   </section>
 
-  <section id="pricing" class="section">
-    <h2>Pricing (₹ INR)</h2>
-    <table>
-      <tr><th>Service</th><th>Price</th></tr>
-      <tr><td>Report Card Generation</td><td>₹0</td></tr>
-      <tr><td>Attendance Dashboard</td><td>₹0</td></tr>
-      <tr><td>Syllabus Progress Tracker</td><td>₹0</td></tr>
-      <tr><td>Co-curricular Management</td><td>₹0</td></tr>
-    </table>
-    <p class="note">* All services are currently free for schools in India.</p>
-  </section>
+  <!-- Services Grid -->
+  <section class="py-16 px-4 max-w-7xl mx-auto bg-white rounded-3xl shadow-lg mt-10">
+    <h2 class="text-3xl font-semibold text-center mb-10 text-purple-700">Explore Our AI Services</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
-  <section id="demo" class="section">
-    <h2>AI in Action</h2>
-    <p>Explore how our AI works with demo charts and visuals.</p>
-    <img src="https://via.placeholder.com/400x200?text=Demo+Chart" alt="Demo Chart" />
-    <br />
-    <a href="#" class="button">Try Demo</a>
-  </section>
+      <div class="bg-gradient-to-br from-blue-100 to-purple-100 p-6 rounded-2xl shadow hover:shadow-xl transition">
+        <img src="https://cdn-icons-png.flaticon.com/512/3208/3208722.png" alt="Dashboard" class="w-24 h-24 mb-4 mx-auto" />
+        <h3 class="text-xl font-bold text-center mb-2 text-blue-700">School Management Dashboard</h3>
+        <p class="text-sm text-gray-700 text-center">Admin control panel for all student and operational data.</p>
+      </div>
 
-  <section id="faq" class="section">
-    <h2>FAQs</h2>
-    <h4>What is Smart AI Campus?</h4>
-    <p>An AI platform helping schools with smart analytics, reports, and engagement.</p>
-    <h4>Is it really free?</h4>
-    <p>Yes, all services are free for Indian schools.</p>
-    <h4>Can I contact the founder?</h4>
-    <p>Yes, use the enquiry form below.</p>
-  </section>
+      <div class="bg-gradient-to-br from-pink-100 to-red-100 p-6 rounded-2xl shadow hover:shadow-xl transition">
+        <img src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png" alt="Chatbot" class="w-24 h-24 mb-4 mx-auto" />
+        <h3 class="text-xl font-bold text-center mb-2 text-pink-700">AI Helpdesk Chatbot</h3>
+        <p class="text-sm text-gray-700 text-center">24x7 support assistant for students and parents.</p>
+      </div>
 
-  <section id="contact" class="section">
-    <h2>Contact Us / Enquiry</h2>
-    <form>
-      <input type="text" placeholder="School Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message or Enquiry..." required></textarea>
-      <button type="submit">Submit</button>
-    </form>
-  </section>
+      <div class="bg-gradient-to-br from-purple-100 to-indigo-100 p-6 rounded-2xl shadow hover:shadow-xl transition">
+        <img src="https://cdn-icons-png.flaticon.com/512/2950/2950656.png" alt="Voice Notes" class="w-24 h-24 mb-4 mx-auto" />
+        <h3 class="text-xl font-bold text-center mb-2 text-purple-700">Voice-to-Text Notes</h3>
+        <p class="text-sm text-gray-700 text-center">Teachers can dictate notes that are transcribed instantly.</p>
+      </div>
 
-  <footer>
-    <p>&copy; 2025 Smart AI Campus | Founder: Shireen R</p>
-  </footer>
+      <div class="bg-gradient-to-br from-green-100 to-teal-100 p-6 rounded-2xl shadow hover:shadow-xl transition">
+        <img src="https://cdn-icons-png.flaticon.com/512/9448/9448931.png" alt="Summarizer" class="w-24 h-24 mb-4 mx-auto" />
+        <h3 class="text-xl font-bold text-center mb-2 text-green-700">AI Summarizer Tool</h3>
+        <p class="text-sm text-gray-700 text-center">Summarize long text into short points using NLP.</p>
+      </div>
+
+      <div class="bg-gradient-to-br from-yellow-100 to-orange-100 p-6 rounded-2xl shadow hover:shadow-xl transition">
+        <img src="https://cdn-icons-png.flaticon.com/512/2784/2784483.png" alt="Homework" class="w-24 h-24 mb-4 mx-auto" />
+        <h3 class="text-xl font-bold text-center mb-2 text-yellow-700">Homework Scanner</h3>
+        <p class="text-sm text-gray-700 text-center">Scan and get instant feedback on student homework.</p>
+      </div>
+
+      <div class="bg-gradient-to-br from-red-100 to-pink-100 p-6 rounded-2xl shadow hover:shadow-xl transition">
+        <img src="https://cdn-icons-png.flaticon.com/512/3145/3145765.png" alt="Skill Prediction" class="w-24 h-24 mb-4 mx-auto" />
+        <h3 class="text-xl font-bold text-center mb-2 text-red-700">Skill Prediction Model</h3>
+        <p class="text-sm text-gray-700 text-center">Predict academic strengths using data and ML.</p>
+      </div>
+
+    </div>
+  </section>
 
 </body>
 </html>
